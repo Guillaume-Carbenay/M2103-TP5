@@ -27,10 +27,14 @@ namespace
     void testDivisionParZero (void)
     {
         int num1, denom1, num2, denom2;
+        cout << "Premier rationnel : " << endl << "Entrez le numerateur : " << endl;
         cin >> num1;
+        cout << "Entrez le denominateur : " << endl;
         cin >> denom1;
         nsMath::Rationnel dividende(num1, denom1);
+        cout << "Deuxieme rationnel : " << endl << "Entrez le numerateur : " << endl;
         cin >> num2;
+        cout << "Entrez le denominateur : " << endl;
         cin >> denom2;
         nsMath::Rationnel diviseur(num2, denom2);
         nsMath::Rationnel result = dividende / diviseur;
